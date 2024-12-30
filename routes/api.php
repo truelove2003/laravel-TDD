@@ -8,4 +8,6 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/tasks/{task}', [TaskController::class, 'show']);
 });
 
+
+
 ?>
